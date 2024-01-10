@@ -56,7 +56,6 @@
 .like-icon .contour {
   fill: var(--contour-color);
   transition: fill 0.1s linear;
-  transform-origin: center;
 }
 
 .like-icon.is-liked .heart {
@@ -65,6 +64,7 @@
   animation-delay: 0.1s;
   animation-timing-function: ease-in;
   animation-direction: alternate;
+  transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
