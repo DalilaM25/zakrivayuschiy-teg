@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-decor: "PressStart2P-Regular";
+  --font: "Inter-Variable";
+  --font-weight: 400;
+  --font-weight-accent: 700;
+  --font-size: 18px;
+  --bg-color: #fff;
+  --bg-gradient: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+  --color: #000;
+  --section-size: 48.3vi;
+  --button-color: #fff;
+  --heart-color: #ff0000;
+  --contour-color: #000;
+}

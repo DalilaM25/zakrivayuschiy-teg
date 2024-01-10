@@ -4,3 +4,86 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+  --font-decor: "PressStart2P-Regular";
+  --font: "Inter-Variable";
+  --font-weight: 400;
+  --font-weight-accent: 700;
+  --bg-color: #fff;
+  --bg-gradient: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+  --color: #000;
+  --section-size: 48.3vi;
+  --button-color: #fff;
+  --heart-color: #ff0000;
+  --contour-color: #000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --font-decor: "PressStart2P-Regular";
+    --font: "Inter-Variable";
+    --font-weight: 400;
+    --font-weight-accent: 700;
+    --bg-color: #fff;
+    --bg-gradient: repeating-linear-gradient(
+        to right,
+        #d3d3d3 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(#e7e7e7 0.1%, #1a1a1a);
+    --color: #000;
+    --section-size: 48.3vi;
+    --button-color: #fff;
+    --heart-color: #ff0000;
+    --contour-color: #000;
+  }
+}
+
+:root.theme-dark {
+  --font-decor: "PressStart2P-Regular";
+  --font: "Inter-Variable";
+  --font-weight: 465;
+  --font-weight-accent: 785;
+  --bg-color: #000;
+  --bg-gradient: repeating-linear-gradient(
+      to right,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+    linear-gradient(#007f0c, #004306);
+  --color: #00cc14;
+  --section-size: 48.3vi;
+  --button-color: #00cc14;
+  --heart-color: #ff0000;
+  --contour-color: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-decor: "PressStart2P-Regular";
+    --font: "Inter-Variable";
+    --font-weight: 465;
+    --font-weight-accent: 785;
+    --bg-color: #000;
+    --bg-gradient: repeating-linear-gradient(
+        to right,
+        #000 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+      linear-gradient(#007f0c, #004306);
+    --color: #00cc14;
+    --section-size: 48.3vi;
+    --button-color: #00cc14;
+    --heart-color: #ff0000;
+    --contour-color: #00cc14;
+  }
+}
