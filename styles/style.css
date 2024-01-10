@@ -303,6 +303,7 @@
 
 .dialog-floppy {
   align-self: center;
+  color: var(--button-color);
 }
 
 .button-floppy {
